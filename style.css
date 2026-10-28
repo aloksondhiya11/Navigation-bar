@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.721);
+    background-image: url(https://i.pinimg.com/736x/15/51/8c/15518ca82512329b0e6f034ef3fd4380.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#main #nav {
+     gap: 20px;
+    display: flex;
+    width: 100%;
+    height: 7%;
+    background-color: white;
+}
+#main #logo {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 100%;
+    /* background-color: burlywood; */
+    font-size: 20px;
+}
+#nav #left {
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    height: 100%;
+    width: 800px;
+    /* background-color: aquamarine; */
+    gap: 18px;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+#nav #centre {
+    height: 100%;
+    width: 300px;
+    /* background-color: rgb(29, 214, 29); */
+}
+
+#nav #right {
+    height: 100%;
+    width: 700px;
+    /* background-color: rgb(78, 78, 205); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+}
+
+a select {
+    border: 0;
+    font-size: 16px;
+}
